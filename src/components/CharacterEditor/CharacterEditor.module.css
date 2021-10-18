@@ -24,6 +24,18 @@
   margin: 0;
 }
 
+.fixedWrapper {
+  isolation: isolate;
+}
+
+.decorativeBackground {
+  position: fixed;
+  bottom: 0;
+  height: 40%;
+  width: 100%;
+  background-color: hsl(195deg, 20%, 86%);
+}
+
 .characterWrapper {
   position: fixed;
   top: 96px;
@@ -33,5 +45,6 @@
 }
 
 .controlColumn {
+  position: relative;
   width: 50%;
 }
