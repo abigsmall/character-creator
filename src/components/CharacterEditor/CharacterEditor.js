@@ -77,16 +77,18 @@ function App() {
           />
         </div>
       </MaxWidthWrapper>
-
-      <div className={styles.characterWrapper}>
-        <Character
-          body={body}
-          head={head}
-          face={face}
-          accessory={accessory}
-          skinColor={skinColor}
-          clothesColor={clothesColor}
-        />
+      <div className={styles.fixedWrapper}>
+        <div className={styles.decorativeBackground}></div>
+        <div className={styles.characterWrapper}>
+          <Character
+            body={body}
+            head={head}
+            face={face}
+            accessory={accessory}
+            skinColor={skinColor}
+            clothesColor={clothesColor}
+          />
+        </div>
       </div>
     </main>
   );
