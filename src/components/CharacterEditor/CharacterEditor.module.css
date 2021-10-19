@@ -4,6 +4,7 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
@@ -41,6 +42,5 @@
 }
 
 .controlColumn {
-  position: relative;
   width: 50%;
 }
