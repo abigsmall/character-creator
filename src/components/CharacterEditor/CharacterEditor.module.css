@@ -24,10 +24,6 @@
   margin: 0;
 }
 
-.fixedWrapper {
-  isolation: isolate;
-}
-
 .decorativeBackground {
   position: fixed;
   bottom: 0;
